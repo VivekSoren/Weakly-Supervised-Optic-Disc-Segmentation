@@ -15,7 +15,7 @@ from model import *
 from utils import * 
 
 if __name__ == '__main__':
-    OUT_DIR = f'results/unet_sl'
+    OUT_DIR = f'results'
     INPUT_DIR = f'input/od'
     IMG_SIZE = (256, 256)
     DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
